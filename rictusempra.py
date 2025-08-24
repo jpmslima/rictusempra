@@ -68,7 +68,7 @@ def read_file_content(filepath: str) -> str:
 
 st.set_page_config(page_title="Molecule Protonation Tool", layout="wide")
 st.title("Rictusempra - Interactive Molecule Protonation Tool 🧪")
-st.write.markdown('Rictusempra is a web-based cheminformatics tool for interactively visualizing small molecules and calculating their most likely protonation state at a given physiological pH. \n'
+st.write('Rictusempra is a web-based cheminformatics tool for interactively visualizing small molecules and calculating their most likely protonation state at a given physiological pH. \n'
                   'It provides a simple interface to generate 2D and 3D molecular structures and prepare them for further computational chemistry tasks like molecular docking or simulation.')
 
 # --- Sidebar for Controls ---
